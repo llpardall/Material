@@ -24,7 +24,7 @@ public class SessionManager {
     private static final String KEY_IS_LOGGEDIN = "isLoggedIn";
 
     public SessionManager(Context context) {
-        this._context = _context;
+        this._context = context;
         pref = _context.getSharedPreferences(PREF_NAME,PRIVATE_MODE);
         editor = pref.edit();
     }
