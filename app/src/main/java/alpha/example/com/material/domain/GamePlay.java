@@ -1,6 +1,8 @@
-package com.na.quiz.domain;
+package alpha.example.com.material.domain;
 import java.util.ArrayList;
 import java.util.List;
+
+import alpha.example.com.material.domain.Question;
 
 /**
  * @author robert.hinds

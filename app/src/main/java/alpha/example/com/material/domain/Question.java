@@ -1,4 +1,4 @@
-package com.na.quiz.domain;
+package alpha.example.com.material.domain;
 
 import com.parse.ParseClassName;
 import com.parse.ParseObject;

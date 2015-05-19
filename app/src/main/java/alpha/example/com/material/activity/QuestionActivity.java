@@ -1,9 +1,4 @@
-package com.na.quiz.activity;
-
-import com.na.quiz.QuizApplication;
-import com.na.quiz.R;
-import com.na.quiz.domain.GamePlay;
-import com.na.quiz.domain.Question;
+package alpha.example.com.material.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,6 +9,13 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+
+
+import alpha.example.com.material.QuizApplication;
+import alpha.example.com.material.R;
+import alpha.example.com.material.domain.GamePlay;
+import alpha.example.com.material.domain.Question;
+
 
 public class QuestionActivity extends Activity implements OnClickListener{
 
@@ -71,8 +73,6 @@ public class QuestionActivity extends Activity implements OnClickListener{
 		
 		// check if end of game
 		if (currentGame.isGameOver()){
-			Intent i = new Intent(this, EndgameActivity.class);
-			startActivity(i);
 			finish();
 		} else {
 			Intent i = new Intent(this, QuestionActivity.class);
